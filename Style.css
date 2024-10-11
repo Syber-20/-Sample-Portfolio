@@ -366,6 +366,7 @@ p {
   font-size: 2rem;
   margin-bottom: 10px;
   text-transform: uppercase;
+  text-align: left;
 }
 
 #services .service-item p {
@@ -460,11 +461,13 @@ p {
 
 /* Start of the about section */
 #about .about {
+  /* background-color: red; */
   flex-direction: column-reverse;
   text-align: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 120px auto;
   padding: 100px 20px;
+  height: fit-content;
 }
 
 #about .col-left {
@@ -515,10 +518,12 @@ p {
 
 /* start of contact section */
 #contact .contact {
+  /* background-color: purple; */
   flex-direction: column;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: -220px auto -60px 412px;
   width: 90%;
+  height: fit-content;
 }
 
 #contact .contact-items {
